@@ -61,7 +61,6 @@ module.exports = {
         // age-calcultaor
         purple: 'hsl(259, 100%, 65%)',
         'deep-gray-purple': '#543c89',
-        'light-red': 'hsl(0, 100%, 67%)',
 
         'off-white': 'hsl(0, 0%, 94%)',
         'light-grey': 'hsl(0, 0%, 86%)',

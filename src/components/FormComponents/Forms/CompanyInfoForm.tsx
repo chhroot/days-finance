@@ -96,18 +96,18 @@ const CompanyInfoForm = ({
           value={name}
           invalidInputMessage={errorMessages.errorName}
           onChange={handleChange}
-          placeholder="e.g. Days Finance"
+          placeholder="e.g. Fina"
           required
         />
 
         <FormInput
-          name="address"
-          type="address"
+          name="email"
+          type="email"
           value={email}
           onChange={handleChange}
           invalidInputMessage={errorMessages.errorEmail}
           label="Email Address"
-          placeholder="173 Main Street, New York, NY 10001"
+          placeholder="e.g. stephenking@lorem.com"
           required
         />
 
