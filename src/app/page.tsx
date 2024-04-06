@@ -1,17 +1,11 @@
-async function fetchFunction(): Promise<object[]> {
-  const res = await fetch('https://reqres.in/api/users');
-  const data = await res.json();
-  return data.data;
-}
+import Form from '@/components/form';
 
-const Home = async () => {
-  const users = await fetchFunction();
-
+export default function Home() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Home</h1>
-    </>
+    <section className="py-24">
+      <div className="container">
+        <Form />
+      </div>
+    </section>
   );
-};
-
-export default Home;
+}
